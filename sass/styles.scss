@@ -1,0 +1,269 @@
+$Balqis: Balqis;
+$roboto: Roboto Condensed;
+$color: #e2ab3f;
+$font-size: 80px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.navigation-menu {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 25px;
+}
+
+.header {
+  background-image: url(../images/background1.jpg);
+  height: 100vh;
+  background-size: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.main-header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.main-header h1 {
+  font-family: $Balqis;
+  font-size: 160px;
+}
+
+.main-header p {
+  font-size: 30px;
+  font-family: $roboto;
+  margin-top: -40px;
+  margin-left: 400px;
+  font-style: italic;
+}
+
+.fairy {
+  margin-left: 20%;
+  margin-top: 200px;
+}
+
+.fairy h1 {
+  font-size: $font-size;
+  color: $color;
+  font-family: $Balqis;
+}
+
+.fairy p {
+  margin-top: -25px;
+  margin-left: 150px;
+  font-family: $roboto;
+  font-style: italic;
+}
+.fairy-block img {
+  margin-right: 60px;
+}
+
+.fairy-block {
+  margin-top: 40px;
+}
+
+.fairy-block2 h1 {
+  font-size: $font-size;
+  color: $color;
+  font-family: $Balqis;
+}
+
+.fairy2 {
+  margin-left: 20%;
+  margin-top: 200px;
+}
+
+.fairy2-text {
+  margin-top: -25px;
+  margin-left: 200px;
+  font-family: $roboto;
+  font-style: italic;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.fairy-button {
+  border: 1px solid #e2ab3f;
+  background: #fff;
+  width: 250px;
+  height: 40px;
+}
+.fairy-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.fairy-cards {
+}
+
+.hotel-block {
+  margin-left: 10%;
+  margin-top: 200px;
+}
+.hotel-text h1 {
+  font-size: $font-size;
+  color: $color;
+  font-family: $Balqis;
+}
+
+.hotel-text p {
+  margin-top: -25px;
+  margin-left: 100px;
+  font-family: $roboto;
+  font-style: italic;
+}
+
+.hotel-text2 p {
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.hotel-cards {
+  display: flex;
+  .hotel-card {
+    margin: 15px;
+  }
+}
+
+.Price-block {
+  margin-left: 10%;
+  margin-top: 200px;
+
+  .price-text {
+    margin-bottom: 100px;
+    h1 {
+      font-size: $font-size;
+      color: $color;
+      font-family: $Balqis;
+    }
+    p {
+      color: #000;
+      font-family: Roboto Condensed;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 300;
+      line-height: normal;
+      margin-left: 100px;
+      position: relative;
+      top: -20px;
+    }
+  }
+  .price-box {
+    display: flex;
+  }
+  .price-inner p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .price-photo {
+    position: relative;
+    top: -150px;
+  }
+}
+.contact-form {
+  margin-top: 200px;
+  margin-left: 10%;
+}
+
+.contact-block-osnova {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-text {
+  h1 {
+    color: $color;
+    font-family: $Balqis;
+    font-size: $font-size;
+    margin-left: 40px;
+  }
+  h2 {
+    color: $color;
+    font-family: $Balqis;
+    font-size: $font-size;
+    margin-left: 140px;
+  }
+  .date {
+    font-family: $roboto;
+    font-style: italic;
+    margin-left: 180px;
+    margin-top: -30px;
+  }
+  .price {
+    font-family: $roboto;
+    font-style: italic;
+    margin-left: 242px;
+    margin-top: -30px;
+  }
+}
+
+.contact-text2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  text-align: center;
+  p {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  input {
+    border: 1px solid #e2ab3f;
+    background: #fff;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  button {
+    border: 1px solid #e2ab3f;
+    background: #fff;
+    height: 40px;
+    width: 260px;
+  }
+}
+
+.footer {
+  background-image: url(../images/Rectangle\ 42.png);
+  background-size: 100%;
+  height: 100vh;
+  margin-top: 120px;
+  background-repeat: no-repeat;
+}
+
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  h1 {
+    font-family: $Balqis;
+    font-size: 70px;
+    margin-left: 80px;
+  }
+}
+
+.footer-contact {
+  text-align: center;
+  margin-top: -400px;
+  margin-right: 550px;
+  h1 {
+    color: $color;
+    font-family: $Balqis;
+    font-size: 70px;
+  }
+  .social-link {
+    padding: 20px 10px;
+  }
+}
